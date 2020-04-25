@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Skip Ad Clicker",
+  "version": "1.0",
+  "description": "Shortcut to skip ad",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "author": "Lucas Barbosa @lucascbarbosa",
+  
+  "browser_action": {
+      "default_icon": "icon16.png",
+      "default_title":"Skip Ad"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "https://www.youtube.com/"  
+  ] 
+}
