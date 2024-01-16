@@ -1,1 +1,1 @@
-document.querySelector('.videoAdUiSkipButton,.ytp-ad-skip-button').click()
+document.getElementsByClassName('ytp-ad-skip-button-modern')[0].click()
