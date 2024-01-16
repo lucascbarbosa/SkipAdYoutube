@@ -1,1 +1,1 @@
-document.getElementsByClassName('ytp-ad-skip-button-modern')[0].click()
+document.querySelector('.ytp-ad-skip-button-modern').click()
